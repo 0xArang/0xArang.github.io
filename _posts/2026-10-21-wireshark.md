@@ -1,11 +1,11 @@
 ---
-title: 와이어 샤크를 이용한 3Way-Handshake 확인
+title: 와이어샤크를 이용한 3Way-Handshake 확인
 date: 2026-10-21 20:00:00 +0900
 categories: [Network, Wireshark]
-tag: [Network, wireshark, Linux, tcp]
+tag: [network, wireshark, linux, tcp]
 ---
 
-## 와이어 샤크 사용해보기
+## 와이어샤크 사용해보기
 
 ### 3Way-Handshake를 직접 보고 이해하기
 
@@ -47,14 +47,15 @@ nc -zv 172.31.131.49 22
 처음 SSH로 실습서버에 접속하려고 했지만 접속에 필요한 아이디를 몰라 test 라는 이름으로 넣어봤다 그런데 3-Way Handshake는 **로그인보다 먼저** 일어나는 과정이라, 아이디를 몰라도
 연결만 시도하면 확인할 수 있었다!
 
-```tcp.port == 51224
+```
+tcp.port == 51224
 ```
 
 ---
 
 ## 결과
 
-출발지와 목적지가 보이고 TCP 프로토콜을 사용해 'SYN' 을 보내고 다음 패킷에서 확인을하는 'SYN','ACK' 플래그가, 그 다음 확인을 한 'ACK' 으로 마무리 된다
+출발지와 목적지가 보이고 TCP 프로토콜을 사용해 `SYN` 을 보내고 다음 패킷에서 확인을하는 `SYN`,`ACK` 플래그가, 그 다음 확인을 한 'ACK' 으로 마무리 된다
 
 **3-Way Handshake** : 연결 지향적인 TCP에서 연결 시작 전 확인을 하는 방법이다
 
@@ -66,7 +67,8 @@ TCP는 UDP와 다르게 데이터를 1.빠짐없이, 2.순서대로 보내는게
 
 ## Seq / Ack 숫자로 읽어보기
 
-![3-way handshake 캡쳐](/assets/img/handshake-syn-flag.png)
+![SYN 플래그 확인](/assets/handshake-syn-flag.png)
+
 
 순서대로 진행된다 
 
