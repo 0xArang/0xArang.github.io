@@ -31,7 +31,7 @@ tag: [Network, wireshark, Linux, tcp]
 
 처음 실습 서버의 22번포트(SSH)에 연결을 시도하면서 와이어샤크로 패킷을 캡쳐했다
 
-![3-way handshake 캡쳐](/assets/img/handshake-list.png)
+![3-way handshake 캡쳐](assets/Handshake-list.png)
 
 > (굳이 공개할 필요가 없는 정보는 마스킹을 했습니다)
 > (그리고 항상 타겟 IP를 까먹어서 target.txt 파일을 만들었습니다)
