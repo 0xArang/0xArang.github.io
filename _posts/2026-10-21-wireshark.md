@@ -34,6 +34,7 @@ tag: [network, wireshark, linux, tcp]
 ![3-way handshake 캡쳐](/assets/handshake-list.png)
 
 > (굳이 공개할 필요가 없는 정보는 마스킹을 했습니다)
+> 
 > (그리고 항상 타겟 IP를 까먹어서 target.txt 파일을 만들었습니다)
 
 ```bash
