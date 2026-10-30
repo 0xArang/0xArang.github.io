@@ -18,15 +18,17 @@ auditpol /get /subcategory:"로그온"
 ## 3. 로그인 실패 만들기
 
 ![runas 1326 에러](/assets/win-runas-1326.png)
+
 ![testuser로 실행 성공](/assets/win-runas-success.png)
 
 ## 4. 이벤트 뷰어로 확인
 
-![이벤트 뷰어 목록](/assets/win-eventviewer-lsit.png)
+![이벤트 뷰어 목록](/assets/win-eventviewer-list.png)
 
 ### 화면은 같은데 로그가 다름
 
 ![4625 testuser](/assets/win-4625-testuser.png)
+
 ![4625 nouser](/assets/win-4625-nouser.png)
 
 ### 예상과 달랐던점
