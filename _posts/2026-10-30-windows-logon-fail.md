@@ -90,14 +90,13 @@ runas /user:testuser cmd
 - `cmd` : 실행할 프로그램 (명령 프롬프트)
 
 ![runas 1326 에러](/assets/win-runas-1326.png)
+![testuser로 실행 성공](/assets/win-runas-success.png)
 
 틀릴 때 마다 "1326: 사용자 이름 또는 암호가 올바르지 않습니다." 에러가 나왔다. 그리고 다음에 맞는 비밀번호를 넣자 testuser로 cmd 창이 열렸다 
 
 (비밀번호는 3번 틀려보았음 너무 많이 틀리면 잠기거나 문제가 생긴다) -> Windows 11은 기본으로 10번 틀리면 계정이 잠긴다(4740).
 
-![testuser로 실행 성공](/assets/win-runas-success.png)
-
-두 번째로 없는 계정 nouser 로 시도했고 화면에는 똑같이 1326 에러가 나왔다.
+그 다음 두 번째로 없는 계정 nouser 로 시도했고 화면에는 똑같이 1326 에러가 나왔다. (캡쳐를 못했습니다.)
 
 ## 4. 이벤트 뷰어로 확인
 
