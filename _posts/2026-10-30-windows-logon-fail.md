@@ -121,12 +121,14 @@ runas /user:testuser cmd
 ![4625 nouser](/assets/win-4625-nouser.png)
 
 testuser
+
 - 로그온 유형 : 2
 - 보안 ID : NULL SID
 - 상태 : 0xC000006D
 - 하위 상태 : 0xC000006A
 
 nouser
+
 - 로그온 유형 : 2
 - 보안 ID : NULL SID
 - 상태 : 0xC000006D
