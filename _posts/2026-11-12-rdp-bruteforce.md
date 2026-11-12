@@ -1,7 +1,7 @@
 ---
 title: RDP 무차별 대입 공격을 직접 하고 로그로 추적하기
 date: 2026-11-12 07:30:00 +0900
-categories: [  Windows]
+categories: [Windows]
 tags: [rdp, hydra, nmap, eventlog, "4625", "4624"]
 published: false
 ---
@@ -9,6 +9,8 @@ published: false
 ## 1. 목표
 
 공격자 입장에서 RDP 비밀번호를 대입해 보고, 방어자 입장에서 Windows 보안 로그만으로 공격을 재구성
+
+`RDP` : 원격 데스크톱 프로토콜이며 포트 번호는 3389
 
 ## 2. 실습 환경
 
