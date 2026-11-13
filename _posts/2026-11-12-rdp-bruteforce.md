@@ -1,8 +1,8 @@
 ---
 title: RDP 무차별 대입 공격을 직접 하고 로그로 추적하기
 date: 2026-11-12 07:30:00 +0900
-categories: [DFIR, Windows]
-tags: [rdp, hydra, nmap, eventlog, "4625", "4624"]
+categories: [Incident Response, Windows]
+tags: [rdp, hydra, nmap, eventlog, dfir, "4625", "4624"]
 published: true
 ---
 
