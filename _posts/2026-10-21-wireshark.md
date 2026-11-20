@@ -1,5 +1,5 @@
 ---
-title: 와이어샤크를 이용한 3Way-Handshake 확인
+title: Wireshark로 보는 TCP 3-Way Handshake
 date: 2026-10-21 20:00:00 +0900
 categories: [Network, Wireshark]
 tag: [network, wireshark, linux, tcp]
