@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: 0xArang # the main title
 
-tagline: 보안관제 모의해킹 공부기록 # it will display as the subtitle
+tagline: 모의해킹, 공격 재현과 로그 분석 기록 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  정보보안 실습과 분석기록
+  사이버보안 실습과 분석기록
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
