@@ -1,5 +1,5 @@
 ---
-title: Windows 로그인 실패 로그(4625) 직접 만들고 읽어보기
+title: Windows 로그인 실패 로그(4625) 분석
 date: 2026-10-30 21:00:00 +0900
 categories: [Blue Team, Windows]
 tags: [windows, eventlog, "4625", powershell]
